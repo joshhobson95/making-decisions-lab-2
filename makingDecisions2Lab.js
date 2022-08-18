@@ -55,13 +55,6 @@ let evensArr = []
 
 //Code Here
 
-// for(i=0; i < nums.length; i++){
-//   if(nums[i] % 2 === 0){
-//     evensArr.push(nums[i])
-//   }
-// console.log(evensArr)
-// 
-
 for (let i = 0; i < nums.length; i++) {
   if (nums[i] % 2 === 0) {
     evensArr.push(nums[i])
@@ -85,6 +78,24 @@ var score = 74
 */
 
 //Code Here
+
+if(score <= 60){
+  console.log('F')
+}else if( score <= 69){
+  console.log('D')
+}else if (score <= 79){
+  console.log('C')
+}else if (score <= 89){
+  console.log('B')
+}else if (score <= 99){
+  console.log('A')
+}
+
+  
+
+
+
+
 
 
 ////////// Intermediate Problems //////////
